@@ -10,6 +10,7 @@ const config = {
   entry: './src/extension.ts',
   output: {
     path: path.resolve ( __dirname, 'out' ),
+    // path: path.resolve( "/Users/comet/.vscode/extensions/fabiospampinato.vscode-highlight-1.6.0/", 'out' ),
     filename: 'extension.js',
     libraryTarget: 'commonjs2',
     devtoolModuleFilenameTemplate: 'file:///[absolute-resource-path]'
